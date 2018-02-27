@@ -35,4 +35,8 @@ module DateHandler
       date_bits[2].to_i
     )
   end
+
+  def find_date(date)
+    DateHandler.string_to_date(date)
+  end
 end
